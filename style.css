@@ -1,0 +1,105 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgrey;
+    line-height: 1.65;
+}
+.container-1 {
+    width: 1152px;
+    height: 396px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 210px;
+    padding-left: 148px;
+    padding-right: 148px;
+    background-color:whitesmoke;
+    display: flex;
+}
+
+.deskripsi {
+    flex: 506px;
+    padding-right: 110px;
+}
+
+.jpeg{
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    background:url(./img/deepika.jpg);
+    background-size: cover;
+    background-position:center;
+    box-shadow: -7px 7px gray;
+}
+
+.container-2 {
+    width: 1152px;
+    height: 265px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 148px;
+    padding-right: 148px;
+    background-color:lightsteelblue;
+    display: flex;
+}
+
+.contact {
+    flex: 1;
+}
+
+.education {
+    flex: 1;
+}
+.juduljob {
+    width: 1152px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 148px;
+    padding-right: 148px;
+    background-color:whitesmoke;
+    display: flex;
+}
+
+.container-3 {
+    width: 1152px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 148px;
+    padding-right: 148px;
+    background-color:whitesmoke;
+    display: flex;
+}
+
+.exp {
+    width: 246px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+
+.container-4 {
+    width: 1152px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 148px;
+    padding-right: 148px;
+    background-color:whitesmoke;
+    justify-content: space-between;
+    display: flex;
+}
+
+.barisakhir {
+    width: 1152px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-left: 148px;
+    padding-right: 148px;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+}
